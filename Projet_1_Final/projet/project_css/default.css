@@ -1,0 +1,89 @@
+body {
+  background-image: url(flou.jpg);
+  color:#35bab5;
+  font-size: large;
+  font-family: sans-serif;
+}
+
+#title h1 {
+text-align: center;
+}
+
+#title p {
+text-align: center;
+font-size: x-large;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    transition-duration: 0.4s;
+    border-radius: 8px;
+  }
+  
+  .topnav a {
+    float: left;
+    color: rgba(255, 255, 255, 0.88);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition-duration: 0.4s;
+  }
+  
+  .topnav a:hover {
+    background-color: rgb(9, 90, 95);
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+  }
+  
+  .topnav a.active {
+    background-color: #36123a;
+    color: rgba(255, 255, 255, 0.88);
+    transition-duration: 0.4s;
+  }
+
+  .topnav a.active:hover {
+    background-color: rgb(175, 93, 200);
+  }
+
+.redirection a:link {
+  background-color: rgb(51, 104, 107);
+  cursor: pointer; 
+  padding: 10px 30px; 
+  border-radius: 18px;
+  transition-duration: 0.4s;
+}
+
+.redirection a:hover{
+  background-color: rgb(99, 164, 167);
+  color: rgb(179, 83, 83);
+}
+
+table, th, td {
+  color: rgb(42, 165, 126);
+  border: 1px solid;
+  border-color: #96D4D4;
+  background-color: #333;
+}
+
+input[type=submit] {
+  margin: auto;
+  background: #8400a2;
+  color: white;
+  height: 40px;
+  width: 75px;
+  font: bold15px arial,sans-serif;
+  text-shadow: none;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+  background-color: #5f9ed6;
+  color: white;
+  cursor: pointer;
+}
+
+input[type=text], input[type=date], input[type=email] {
+  border-radius: 6px;
+}
